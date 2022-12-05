@@ -21,9 +21,11 @@ scp | Copiar archivos en maquinas remotas | scp frog.txt lia@10.8.0.2:/home/Down
 wget | Descargar archivos de una pagina web | wget https://manjaro.org/download/
 curl | Peticiones a una pagina web | curl -X GET -L https://genshin.hoyoverse.com/en/home
 wc | Contar datos | wc /Downloads/sandalia.txt
+find | Encontrar directorios o archivos | sudo find /X -empty
 whoami | Para saber el usuario actual|
 top| Estado de los procesos|
 ps tree| Porcesos actuales en formato de arbol|
+ping | Conexión de dos dispositivos
 ip addr| Información sobre las ip de la maquina|
 chmod | Da permisos para poder modificar o ejecutar un archivo | chmod +x archivo
 history | Permite ver todos los comandos ejecutados | 
