@@ -10,6 +10,9 @@ clear| Borrar lo impreso en consola|
 ps | Procesos actuales |
 exit| Salir del usuario root|
 cat| Imprimir la información de un archivo en consola| cat zapato.txt
+tail | 10 ultimas lineas de un archivo| tail archivito.txt
+head | 10 primeras lineas de un archivo | head archivito.txt
+more | Permite ver el contenido completo de un archivo en diferentes páginas | more libro.txt
 whoami | Para saber el usuario actual|
 top| Estado de los procesos|
 ps tree| Porcesos actuales en formato de arbol|
@@ -18,6 +21,8 @@ chmod | Da permisos para poder modificar o ejecutar un archivo | chmod +x archiv
 history | Permite ver todos los comandos ejecutados | 
 grep | Permite escoger archivos con ciertas palabras o formato| sudo grep hola saludos.txt
 apt install| Comandos para la instalación de aplicacion| sudo apt install sudoku
+sudo demicode --type 17 cat /proc/meminfo | Imprime el tamaño de la memoria|
+for file in /proc/* /status ; do awk '/VmSwap!Name/{printf $2 " " $3}END{ print ""}' $file; done ! sort -k 2 -n -r ! less | Memoria de cada programa|
 pacman| Comando de instalación de Manjaro | sudo pacman sudoku
 mkdir | Permite |crear un nuevo directorio | mkdir prueba
 rm | Borra un archivo | rm /cosas/archivobasura
