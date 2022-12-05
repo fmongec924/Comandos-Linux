@@ -6,9 +6,11 @@ ls | Muestra los archivos o carpetas | ls /Descargas
 cd | Lleva a una carpeta | cd /home/directorio1
 cp | Copiar archivos o directorios | cp copia.txt /usuarioX
 nano | Genera un archivo| nano arch.txt
+clear| Borrar lo impreso en consola|
 ps | Procesos actuales |
-exit|
+exit| Salir del usuario root|
 cat| Imprimir la información de un archivo en consola| cat zapato.txt
+whoami | Para saber el usuario actual|
 top| Estado de los procesos|
 ps tree| Porcesos actuales en formato de arbol|
 ip addr| Información sobre las ip de la maquina|
@@ -23,7 +25,8 @@ rmdir | Borra un directorio | rmdir /directbasura
 chown | Da permisos de pertenencia a un usuario sobre una carpeta o archivo| chown fmongec924 archivoX
 uname -a| Permite ver el kernel que esta utilizando el SO | sudo uname -a
 pkill | Matar a un proceso | pkill terminal
-adduser | Permite agregar usuarios a la maquina|  sudo adduser -m Nilo
+adduser | Permite agregar usuarios a la maquina|  sudo adduser Nilo
+passwd | Permite cambiar la contraseña de un usuario | sudo passwd Nilo
 ">" | Permite generar comandos dentro de archivos | sudo ls /bin > texto.txt
 crontab -e | Permite editar el archivo Cron| 
 
