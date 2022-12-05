@@ -50,6 +50,17 @@ crontab -e | Permite editar el archivo Cron|
 systemctl enable | Permite que un programa se ejecute al inciar la maquina| sudo systemctl enable --now vncserver-virtuald.service
 sudo add-apt-repository | Añade un respositorio | sudo add-apt-repository “deb [arch=amd64] http://download.webmin.com/download/repository sarge contrib”
 systemctl status | Estado de un sistema | systemctl status webmin
+docker build | Crea una imagen a partir de un archivo tipo docker|
+docker images| Imagenes instaladas |
+docker run | Corre una imagen|
+docker ps | Instancias detenidas o en ejecución|
+docker stop | Detiene una instancia|
+docker rm | Elimina una instancia|
+docker rmi| Elimina la imagen| 
+docker pull| Descargar una imagen|
+docker container ls -a | Lista los contenedores|
+docker start | Inicia los contenedores| 
+
 
 
 
