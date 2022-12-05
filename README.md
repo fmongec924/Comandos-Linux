@@ -52,7 +52,7 @@ sudo add-apt-repository | Añade un respositorio | sudo add-apt-repository “de
 systemctl status | Estado de un sistema | systemctl status webmin
 docker build | Crea una imagen a partir de un archivo tipo docker|
 docker images| Imagenes instaladas |
-docker run | Corre una imagen|
+docker run | Corre una imagen| docker run ubuntu
 docker ps | Instancias detenidas o en ejecución|
 docker stop | Detiene una instancia|
 docker rm | Elimina una instancia|
@@ -60,6 +60,11 @@ docker rmi| Elimina la imagen|
 docker pull| Descargar una imagen|
 docker container ls -a | Lista los contenedores|
 docker start | Inicia los contenedores| 
+docker container exec ls | Ejecutar un comando en el contenedor|
+docker run -d --name *nombre* *imagen* | Ponerle nombre al contenedor|
+docker attach CONTAINER | Entrar a la terminal de un docker|
+docker run -d -p *host*:*contenedor* *imagen* | Asignar un puerto al contenedor|
+docker run -d -P *imagen* | Puerto random |
 
 
 
