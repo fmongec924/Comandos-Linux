@@ -2,11 +2,17 @@
 |Comando|Descripcion|Ejemplo|
 |--------|------------------------------------------------------|------------|
 sudo su | Se utiliza para ejecutar comandos como un usuario root|
-ls | Muestra los archivos o carpetas | 
-cd | Lleva a una carpeta | Ej: cd /home/directorio1|
-cp | Copiar archivos o directorios
+ls | Muestra los archivos o carpetas | ls /Descargas
+cd | Lleva a una carpeta | cd /home/directorio1|
+cp | Copiar archivos o directorios | cp copia.txt /usuarioX
 nano | Genera un archivo|
 ps | Procesos actuales |
+exit|
+cat| Imprimir la información de un archivo en consola| cat zapato.txt
+top| Estado de los procesos|
+ps tree| Porcesos actuales en formato de arbol|
+ip addr|
+
 chmod | Da permisos para poder modificar o ejecutar un archivo | chmod +x archivo|
 history | Permite ver todos los comandos ejecutados | 
 grep | Permite escoger archivos con ciertas palabras o formato|
