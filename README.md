@@ -12,7 +12,6 @@ cat| Imprimir la información de un archivo en consola| cat zapato.txt
 top| Estado de los procesos|
 ps tree| Porcesos actuales en formato de arbol|
 ip addr|
-
 chmod | Da permisos para poder modificar o ejecutar un archivo | chmod +x archivo|
 history | Permite ver todos los comandos ejecutados | 
 grep | Permite escoger archivos con ciertas palabras o formato|
