@@ -47,6 +47,10 @@ adduser | Permite agregar usuarios a la maquina|  sudo adduser Nilo
 passwd | Permite cambiar la contraseña de un usuario | sudo passwd Nilo
 ">" | Permite generar comandos dentro de archivos | sudo ls /bin > texto.txt
 crontab -e | Permite editar el archivo Cron| 
+systemctl enable | Permite que un programa se ejecute al inciar la maquina| sudo systemctl enable --now vncserver-virtuald.service
+sudo add-apt-repository | Añade un respositorio | sudo add-apt-repository “deb [arch=amd64] http://download.webmin.com/download/repository sarge contrib”
+systemctl status | Estado de un sistema | systemctl status webmin
+
 
 
 
