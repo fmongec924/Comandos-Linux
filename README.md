@@ -16,6 +16,8 @@ head | 10 primeras lineas de un archivo | head archivito.txt
 more | Permite ver el contenido completo de un archivo en diferentes páginas | more libro.txt
 less | Muestra el texto en la terminal | less libro.txt
 sta| Información del archivo| stat bunny.txt
+zip / tar -czvf| Comprimir archivos | zip mini.zip cosa.txt / tar -czvf scripts.tar.gz zzz.txt
+unzip / tar -xvf| Descomprimir archivos | unzip mini.zip / tar -xvf scripts.tar.gz
 pwd | Directorio actual |
 scp | Copiar archivos en maquinas remotas | scp frog.txt lia@10.8.0.2:/home/Downloads
 wget | Descargar archivos de una pagina web | wget https://manjaro.org/download/
@@ -25,8 +27,9 @@ find | Encontrar directorios o archivos | sudo find /X -empty
 whoami | Para saber el usuario actual|
 top| Estado de los procesos|
 ps tree| Porcesos actuales en formato de arbol|
-ping | Conexión de dos dispositivos
+ping | Conexión de dos dispositivos| ping 10.8.0.9
 ip addr| Información sobre las ip de la maquina|
+fdisk | Permite editar o crear tablas de particiones | sudo fdisk -l /dev/sda
 chmod | Da permisos para poder modificar o ejecutar un archivo | chmod +x archivo
 history | Permite ver todos los comandos ejecutados | 
 grep | Permite escoger archivos con ciertas palabras o formato| sudo grep hola saludos.txt
